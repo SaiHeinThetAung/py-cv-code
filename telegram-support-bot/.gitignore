@@ -1,0 +1,7 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+bot.log
+message_map.json   # if you add persistent mapping later
+venv           # if you use a virtual environment
