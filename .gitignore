@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+*.egg
+*.eggs/
+*.manifest
+*.spec
+
+# Virtual environments & IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# PaddleOCR / PaddlePaddle caches & downloads
+~/.paddleocr/
+~/.cache/paddle/
+ppocr_keys_v1.txt
+ppocr_keys_v2.txt
+ppocr_mobile_v3.0_det_infer/
+ppocr_mobile_v3.0_rec_infer/
+ch_ppocr_mobile_v2.0_cls_infer/
+inference/
+
+# Large model files (often downloaded automatically)
+*.pdmodel
+*.pdiparams
+*.pdopt
+*.nb
+*.npy
+*.onnx
+*.trt
+
+# Output / results from your project
+output/
+results/
+annotated/
+viz/
+debug/
+
+# Data (unless you explicitly want to version small test sets)
+data/
+!data/test_images/      # ← keep this line if you want to commit example/test images
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar.gz
+
+# Logs & temporary files
+*.log
+*.logs
+.DS_Store
+Thumbs.db
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+requirements.txt.bak
+

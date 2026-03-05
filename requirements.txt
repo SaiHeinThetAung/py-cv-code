@@ -1,0 +1,6 @@
+paddlepaddle==2.6.1
+paddleocr==2.8.1   
+opencv-python>=4.9
+PyYAML>=6.0
+numpy>=1.26
+tqdm

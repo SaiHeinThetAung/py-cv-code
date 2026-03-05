@@ -1,0 +1,13 @@
+ocr:
+  lang: en
+  use_angle_cls: true
+  use_gpu: false
+  cpu_math_library_num_threads: 6
+preprocess:
+  max_size: 1920
+  clahe: true
+  sharpen: true
+postprocess:
+  min_conf: 0.58
+  merge_nearby: true
+  clean: true
